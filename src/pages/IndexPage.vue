@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center">
     <h1>
-      milad sarli
+      Ilhan sarli
     </h1>
   </q-page>
 </template>
