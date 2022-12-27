@@ -2,7 +2,7 @@
   <q-page padding>
     <!-- content -->
     <h1 class="text-center">
-      Ilhan
+      wellcome ilhan
     </h1>
   </q-page>
 </template>
