@@ -1,9 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar class="bg-green">
+      <q-toolbar class="bg-pink">
         <q-toolbar-title>
-          Milad Sarli
+          hi there...
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -31,7 +31,7 @@ export default defineComponent({
 
   setup () {
     const leftDrawerOpen = ref(false)
-
+    
     return {
       leftDrawerOpen,
       toggleLeftDrawer () {
