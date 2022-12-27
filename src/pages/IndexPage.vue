@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <h1 class="text-center">
-      Ilhan Branch
+      Wellcome Ilhan
     </h1>
     <q-btn color="primary" icon="check" label="OK" @click="onClick" />
     <q-chip icon="event">Add to calendar</q-chip>
