@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar class="bg-pink">
-        <q-toolbar-title>
+        <q-toolbar-title class="bg-blue">
           hi there...
         </q-toolbar-title>
 
@@ -12,7 +12,7 @@
 
 
 
-    <q-page-container>
+    <q-page-container class= "bg-grey">
       <router-view />
     </q-page-container>
   </q-layout>

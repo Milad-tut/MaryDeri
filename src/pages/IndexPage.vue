@@ -28,10 +28,10 @@
 
   <q-page>
     <h1 class="text-center">
-      Wellcome Ilhan
+      Wellcome Ilhan 
           </h1>
    <div class="text-center">       
-    <q-btn color="primary" icon="check" label="OK" @click="onClick" />
+    <q-btn color="info" icon="check" label="OK" @click="onClick" />
     <q-chip icon="event">Add to calendar</q-chip>
     <q-chip icon="bookmark">Bookmark</q-chip>
     <q-chip icon="alarm" label="Set alarm" />
@@ -39,7 +39,7 @@
    </div> 
 
   <div class="text-center">
-    <q-btn round color="primary" icon="shopping_cart" />
+    <q-btn round color="info" icon="shopping_cart" />
     <q-btn round color="secondary" icon="navigation" />
     <q-btn round color="amber" glossy text-color="black" icon="layers_clear" />
     <q-btn round color="brown-5" icon="directions" />
