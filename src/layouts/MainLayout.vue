@@ -1,9 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar class="bg-pink">
-        <q-toolbar-title class="bg-blue">
-          hi there...
+      <q-toolbar class="bg-brown">
+        <q-toolbar-title class="bg-black text-brown text-center">
+          maryderi
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>

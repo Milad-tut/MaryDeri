@@ -1,59 +1,32 @@
-<template>
- <div class="q-pa-md q-gutter-sm">
-    <q-banner dense class="bg-primary text-white">
-      Unfortunately, the credit card did not go through, please try again.
-      <template v-slot:action>
-        <q-btn flat color="white" label="Dismiss" />
-        <q-btn flat color="white" label="Update Credit Card" />
-      </template>
-    </q-banner>
+<template>,
+<q-page>
+<div class="text-h1 text-center">maryderi</div>
+<q-img src="images/leather-4.jpg" spinner-color="white" style="height: 400px; max-width: 1400px" class="q-mt-xl" />
+<div class="row full-width justify-center q-col-gutter-sm q-mt-xl">
+<div class="col-3 q-mr-xl">
+  <q-img src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/img/2022-10__01/KRSS_MAIN_SLIDER_TEMPLATE_03b.jpg"
+   spinner-color="white" style="height: 140px; max-width: 700px" @click="$router.push('/products/women wallet')" />
+</div>
+<div class="col-3"><q-img src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/img/landing_page_assets/cms-page__office-spotlight_bg.jpg"
+   spinner-color="white" style="height: 140px; max-width: 700px" @click="$router.push('/products/purse')"/>
+</div>
+<div class="col-3 q-ml-xl"><q-img src="https://trulyexperiences.com/blog/wp-content/uploads/2020/03/brown-binoculars-camera-and-bag-kit-2282479-scaled-e1584029733887.jpg"
+   spinner-color="white" style="height: 140px; max-width: 700px" @click="$router.push('/products/shoes')"/>
+</div>
+<div class="col-3 q-mt-xl q-mr-xl"><q-img src="https://assets.aspinaloflondon.com/images/block-feature-2021-large/1486204-106718-image-3-storage.jpg"
+   spinner-color="white" style="height: 140px; max-width: 700px" @click="$router.push('/products/belt')"/>
+</div>
+<div class="col-3 q-mt-xl"><q-img src="https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw96fe84ef/2022/HO22/set_12262022_global/1226_SemiAnnual_Sale_Global_Grid_2_hover.jpg"
+   spinner-color="white" style="height: 140px; max-width: 700px" @click="$router.push('/products/wristlet')"/>
+</div>
+<div class="col-3 q-mt-xl q-ml-xl"><q-img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2022_21/1874437/31-03-2017-000009012-son-2048x-628e6013ea8ad.jpg"
+   spinner-color="white" style="height: 140px; max-width: 700px" @click="$router.push('/products/wristband')"/>
+</div>
+</div>
 
-    <q-banner dense class="bg-grey-3">
-      <template v-slot:avatar>
-        <q-icon name="signal_wifi_off" color="primary" />
-      </template>
-      You have lost connection to the internet. This app is offline.
-      <template v-slot:action>
-        <q-btn flat color="primary" label="Turn on Wifi" />
-      </template>
-    </q-banner>
-
-    <q-banner dense inline-actions class="text-white bg-red">
-      You have lost connection to the internet. This app is offline.
-      <template v-slot:action>
-        <q-btn flat color="white" label="Turn ON Wifi" />
-      </template>
-    </q-banner>
-  </div>
-
-  <q-page>
-    <h1 class="text-center">
-      Wellcome Ilhan 
-          </h1>
-   <div class="text-center">       
-    <q-btn color="info" icon="check" label="OK" @click="onClick" />
-    <q-chip icon="event">Add to calendar</q-chip>
-    <q-chip icon="bookmark">Bookmark</q-chip>
-    <q-chip icon="alarm" label="Set alarm" />
-    <q-chip class="glossy" icon="directions">Get directions</q-chip>
-   </div> 
-
-  <div class="text-center">
-    <q-btn round color="info" icon="shopping_cart" />
-    <q-btn round color="secondary" icon="navigation" />
-    <q-btn round color="amber" glossy text-color="black" icon="layers_clear" />
-    <q-btn round color="brown-5" icon="directions" />
-    <q-btn round color="deep-orange" icon="edit_location" />
-    <q-btn round color="purple" glossy icon="local_grocery_store" />
-    <q-btn round color="black" icon="my_location" />
-  </div>
-
-  </q-page>
+</q-page>
 </template>
+<script setup></script>
+<style>
 
-<script>
-import { defineComponent } from 'vue'
-export default defineComponent({
-  name: 'IndexPage'
-})
-</script>
+</style>
