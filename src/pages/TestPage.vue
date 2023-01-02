@@ -1,11 +1,11 @@
 <template>
-  <q-page class="bg-dark text-white" padding>
-    <h1></h1>
+<q-page>
+<h1>
+  {{ $route.params.name }}
+</h1>
   </q-page>
 </template>
 
-<script>
-export default {
-  // name: 'PageName',
-}
+<script setup>
+
 </script>

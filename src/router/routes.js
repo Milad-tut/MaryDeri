@@ -8,14 +8,9 @@ const routes = [
     ],
   },
   {
-    path: "/test2",
-    component: () => import("layouts/TestLayout.vue"),
-    children: [{ path: "", component: () => import("pages/TestPage2.vue") }],
-  },
-  {
-    path: "/ilhan",
-    component: () => import("layouts/IlhanL.vue"),
-    children: [{ path: "", component: () => import("pages/IlhanPage.vue") }],
+    path: "/products",
+    component: () => import("layouts/MainLayout.vue"),
+    children: [{ path: ":name", component: () => import("pages/TestPage.vue") }],
   },
 
   // Always leave this as last one,

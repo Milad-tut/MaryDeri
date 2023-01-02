@@ -1,7 +1,7 @@
 <template>,
 <q-page>
 <div class="text-h1 text-center">maryderi</div>
-<q-img src="images/leather-4.jpg" spinner-color="white" style="height: 400px; max-width: 1400px" class="q-mt-xl" />
+<q-img src="images/leather-4.jpg" spinner-color="white" style="height: 400px; max-width: 1400px text-align: center;" class="q-mt-xl" /> 
 <div class="row full-width justify-center q-col-gutter-sm q-mt-xl">
 <div class="col-3 q-mr-xl">
   <q-img src="https://marvel-b1-cdn.bc0a.com/f00000000084691/www.krsaddleshop.com/img/2022-10__01/KRSS_MAIN_SLIDER_TEMPLATE_03b.jpg"
