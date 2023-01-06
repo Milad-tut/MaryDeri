@@ -12,7 +12,7 @@
 
 
 
-    <q-page-container class= "bg-grey">
+    <q-page-container class= "">
       <router-view />
     </q-page-container>
   </q-layout>
