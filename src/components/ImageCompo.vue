@@ -4,7 +4,7 @@
         spinner-color="white" style="
         height: 240px;  border:2px solid #fff;
   border-radius:25px;
-  
+
   " @click="$router.push('/products/women wallet')" >
    <div class="absolute-top-left hidden text-subtitle2">
            {{ props.title }}
@@ -16,7 +16,7 @@
 
 <script setup>
 const props = defineProps({
-    Image: {
+    image: {
         default: '',
         type: String
     },

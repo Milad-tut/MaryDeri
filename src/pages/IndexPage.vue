@@ -1,5 +1,5 @@
 <template>,
-<q-page>
+<q-page> 
 <div class="text-h1 text-center">maryderi</div>
 <div class="row full-width justify-center">
    <q-img src="images/leather-4.jpg" spinner-color="white" style="height: 400px; max-width: 1400px;  border:2px solid #fff;
@@ -7,7 +7,7 @@
   border-radius:25px;" class="q-mt-xl" /> 
 </div>
 <div class="row full-width justify-center q-my-md">
-   <div class="col-10 row justify-center q-col-gutter-lg">
+   <div class="col-xs-12 col-sm-10 row justify-center q-col-gutter-lg">
       <div v-for="compo in image" :key="`compo-image-${compo}`" class="col-4">
        <ImageCompo :image="compo.image" :title="compo.title"/>    
       </div>
