@@ -8,7 +8,7 @@
 </div>
 <div class="row full-width justify-center q-my-md">
    <div class="col-xs-12 col-sm-10 row justify-center q-col-gutter-lg">
-      <div v-for="compo in image" :key="`compo-image-${compo}`" class="col-4">
+      <div v-for="compo in image" :key="`compo-image-${compo}`" class="col-md-4 col-sm-6 col-xs-12">
        <ImageCompo :image="compo.image" :title="compo.title"/>    
       </div>
    </div>

@@ -1,12 +1,15 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar class="bg-brown">
-        <q-toolbar-title class="bg-black text-brown text-center">
+      <q-toolbar class="bg-primary">
+        <q-toolbar-title class=" text-white text-center">
           maryderi
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div class="absolute-right" style="top: 5px; left: 10px;">
+           <q-btn outlined label="ثبت نام / ورود" rounded color="secondary"/>
+          
+        </div>
       </q-toolbar>
     </q-header>
 
