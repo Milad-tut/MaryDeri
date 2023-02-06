@@ -23,7 +23,11 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
-
+import { useRouter } from 'vue-router'
+const router = useRouter()
+function goRegister () {
+  router.push(`/register`)
+}
 
 
 export default defineComponent({
